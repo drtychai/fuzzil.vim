@@ -1,9 +1,9 @@
 " ftplugin/fuzzil/folding.vim
 setlocal ai si sw=4 ts=4
 setlocal foldmethod=expr
-setlocal foldexpr=GetUngramFold(v:lnum)
+setlocal foldexpr=GetFuzzilFold(v:lnum)
 
-function! GetUngramFold(lnum)
+function! GetFuzzilFold(lnum)
   " Defaults current line number to
   " fold level 0 (i.e., ignore line) 
   let b:flevel = '0'

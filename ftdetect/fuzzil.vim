@@ -1,2 +1,2 @@
 " ftdetect/fuzzil.vim
-autocmd BufNewFile,BufRead *.fil setfiletype fuzzil
+autocmd BufNewFile,BufRead *.fuzzil setfiletype fuzzil
