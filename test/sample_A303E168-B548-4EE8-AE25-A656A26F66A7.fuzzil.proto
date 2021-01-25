@@ -1,0 +1,263 @@
+▿ Fuzzilli.Fuzzilli_Protobuf_Program:
+uuid: "\243\003\341h\265HN\350\256%\246V\242of\247"
+code {
+  inouts: [0]
+  loadInteger {
+    value: 1337
+  }
+}
+code {
+  inouts: [0, 1]
+  createObject {
+    propertyNames: "a"
+  }
+}
+code {
+  inouts: [1, 2]
+  beginForIn {
+  }
+}
+code {
+  beginBlockStatement {
+  }
+}
+code {
+  inouts: [3]
+  loadInteger {
+    value: 1337
+  }
+}
+code {
+  inouts: [2, 3]
+  reassign {
+  }
+}
+code {
+  beginBlockStatement {
+  }
+}
+code {
+  inouts: [1, 4]
+  createObject {
+    propertyNames: "a"
+  }
+}
+code {
+  inouts: [2, 4]
+  reassign {
+  }
+}
+code {
+  endBlockStatement {
+  }
+}
+code {
+  endBlockStatement {
+  }
+}
+code {
+  endForIn {
+  }
+}
+types {
+  type {
+    definiteType: 2
+    possibleType: 2
+  }
+}
+types {
+  variable: 1
+  index: 1
+  type {
+    definiteType: 32
+    possibleType: 32
+    extension {
+      properties: "a"
+    }
+  }
+}
+types {
+  variable: 2
+  index: 2
+  type {
+    definiteType: 8
+    possibleType: 8
+  }
+}
+types {
+  variable: 2
+  index: 5
+  type {
+    definiteType: 2
+    possibleType: 2
+  }
+}
+types {
+  variable: 2
+  index: 8
+  type {
+    definiteType: 32
+    possibleType: 32
+    extension {
+      properties: "a"
+    }
+  }
+}
+types {
+  variable: 3
+  index: 4
+  type {
+    definiteType: 2
+    possibleType: 2
+  }
+}
+types {
+  variable: 4
+  index: 7
+  type {
+    definiteType: 32
+    possibleType: 32
+    extension {
+      properties: "a"
+    }
+  }
+}
+typeCollectionStatus: NOTATTEMPTED
+
+  ▿ unknownFields: SwiftProtobuf.UnknownStorage
+    ▿ data: 0 bytes
+      - count: 0
+      ▹ pointer: 0x00007ffee4f11708
+      - bytes: 0 elements
+  ▿ _storage: Fuzzilli.Fuzzilli_Protobuf_Program.(unknown context at $10b1ca248)._StorageClass #0
+    ▿ _uuid: 16 bytes
+      - count: 16
+      ▹ pointer: 0x00007f804f40fc40
+      ▹ bytes: 16 elements
+    ▿ _code: 12 elements
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [0]
+loadInteger {
+  value: 1337
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [0, 1]
+createObject {
+  propertyNames: "a"
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [1, 2]
+beginForIn {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+beginBlockStatement {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [3]
+loadInteger {
+  value: 1337
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [2, 3]
+reassign {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+beginBlockStatement {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [1, 4]
+createObject {
+  propertyNames: "a"
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+inouts: [2, 4]
+reassign {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+endBlockStatement {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+endBlockStatement {
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_Instruction:
+endForIn {
+}
+
+    ▿ _types: 7 elements
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+type {
+  definiteType: 2
+  possibleType: 2
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+variable: 1
+index: 1
+type {
+  definiteType: 32
+  possibleType: 32
+  extension {
+    properties: "a"
+  }
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+variable: 2
+index: 2
+type {
+  definiteType: 8
+  possibleType: 8
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+variable: 2
+index: 5
+type {
+  definiteType: 2
+  possibleType: 2
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+variable: 2
+index: 8
+type {
+  definiteType: 32
+  possibleType: 32
+  extension {
+    properties: "a"
+  }
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+variable: 3
+index: 4
+type {
+  definiteType: 2
+  possibleType: 2
+}
+
+      ▹ Fuzzilli.Fuzzilli_Protobuf_TypeInfo:
+variable: 4
+index: 7
+type {
+  definiteType: 32
+  possibleType: 32
+  extension {
+    properties: "a"
+  }
+}
+
+    - _typeCollectionStatus: Fuzzilli.Fuzzilli_Protobuf_TypeCollectionStatus.notattempted
+    - _comments: 0 key/value pairs
+    - _parent: nil

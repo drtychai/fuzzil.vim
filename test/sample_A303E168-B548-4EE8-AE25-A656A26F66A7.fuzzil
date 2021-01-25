@@ -1,0 +1,12 @@
+v0 <- LoadInteger '1337'
+v1 <- CreateObject ['a':v0]
+BeginForIn v1 -> v2
+    BeginBlockStatement
+        v3 <- LoadInteger '1337'
+        Reassign v2, v3
+        BeginBlockStatement
+            v4 <- CreateObject ['a':v1]
+            Reassign v2, v4
+        EndBlockStatement
+    EndBlockStatement
+EndForIn
